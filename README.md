@@ -34,8 +34,8 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 
 
 ## Electrical System
-- 24V/30A DC Rechargeable Battery
-- 24V/12V Step-Down Converter
+-- 24V/30A DC Rechargeable Battery
+-- 24V/12V Step-Down Converter
 -24V/5V Step-Down Converter
 -Linear Actuator
 -2 DC Motors
