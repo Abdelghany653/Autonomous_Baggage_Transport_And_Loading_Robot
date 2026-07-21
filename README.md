@@ -34,24 +34,24 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 
 
 ## Electrical System
-24V/30A DC Rechargeable Battery
-24V/12V Step-Down Converter
-24V/5V Step-Down Converter
-Linear Actuator
-2 DC Motors
-2 Servo Motors
-Stepper Motor
-Cytron DC Driver
-Servo Motor Driver
-Stepper Motor Driver
-Leadscrew
-RPLiDAR A1M8
-Raspberry Pi 5 8GB
-2 ESP32
-MPU-6050
+-24V/30A DC Rechargeable Battery
+-24V/12V Step-Down Converter
+-24V/5V Step-Down Converter
+-Linear Actuator
+-2 DC Motors
+-2 Servo Motors
+-Stepper Motor
+-Cytron DC Driver
+-Servo Motor Driver
+-Stepper Motor Driver
+-Leadscrew
+-RPLiDAR A1M8
+-Raspberry Pi 5 8GB
+-2 ESP32
+-MPU-6050
  <p align="center">
   <img src="docs/electrical.png" alt="Image 1" width="80%">
-</p>
+  </p>
 
 
 ## Software System
