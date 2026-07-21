@@ -65,7 +65,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 ## Flowchart to navigate from its position to Position A 
 
  <p align="center">
-  <img src="docs/flowchart_A.png" alt="Image 1" width="80%">
+  <img src="docs/"  width="80%">
  </p>
 
 
@@ -93,7 +93,6 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
   </a>
 </p>
 
-
 ## Technologies Used
 
 - ROS 2 Jazzy
@@ -113,9 +112,3 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 - Python
 
 
-
-**Ahmed Mohamed Abdelghany**
-
-Graduation Project  
-Department of Mechatronics Engineering  
-Misr University for Science and Technology (MUST)
