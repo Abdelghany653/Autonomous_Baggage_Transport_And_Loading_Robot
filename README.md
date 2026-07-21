@@ -81,6 +81,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 
 <p align="center">
   <img src="docs/flowchart_A.png" alt="Image 1" width="30%">
+  <b>Autonomous Baggage Transport and Loading Robot (ABTLR)</b>
   <img src="docs/flowchart_B.png" alt="Image 2" width="30%">
   <img src="docs/flowchart_garage.png" alt="Image 3" width="30%">
 </p>
