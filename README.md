@@ -33,12 +33,14 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
   <img src="docs/robot_solidworks.jpg" alt="Image 1" width="45%">
   <img src="docs/physical.jpg" alt="Image 2" width="45%">
 </p>
----
+
 
 ## Electrical System
 
- 
----
+ <p align="center">
+  <img src="docs/electrical.png" alt="Image 1" width="45%">
+</p>
+
 
 ## Software System
 
