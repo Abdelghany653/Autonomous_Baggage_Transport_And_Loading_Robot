@@ -21,10 +21,10 @@ The mechanical design of the **Autonomous Baggage Transport and Loading Robot (A
 - ### Base
 A differential-drive mobile platform that supports all robot components and enables stable autonomous navigation using two driven wheels and four caster wheels.
 
-### Scissor Mechanism
+- ### Scissor Mechanism
 A vertically actuated lifting system powered by a linear actuator, used to adjust the height of the loading mechanism for baggage pickup and placement at different storage levels.
 
-### Pusher/Capture Mechanism
+- ### Pusher/Capture Mechanism
 A horizontal lead screw-driven mechanism responsible for baggage handling. The capture unit uses servo-actuated grippers to securely grasp the baggage, while the pusher transfers and releases it accurately into the designated storage location.
 
 <p align="center">
@@ -58,22 +58,22 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 
 The software system of the **Autonomous Baggage Transport and Loading Robot (ABTLR)** is developed using **ROS 2 Jazzy** and consists of the following main modules.
 
-#### Robot Control
+- #### Robot Control
 Controls the robot's movement and coordinates the operation of the scissor lift, gripper, and pusher mechanisms.
 
-#### Localization and Mapping
+- #### Localization and Mapping
 Uses **SLAM Toolbox** to generate maps and **AMCL** for accurate localization within a known environment.
 
-#### Navigation
+- #### Navigation
 Employs the **A\*** algorithm for global path planning and the **Dynamic Window Approach (DWA)** for local path planning and obstacle avoidance.
 
-#### Sensor Fusion
+- #### Sensor Fusion
 Integrates data from wheel encoders and the **MPU6050 IMU** using an **Extended Kalman Filter (EKF)** to improve localization accuracy.
 
-#### Perception
+- #### Perception
 Uses the **RPLIDAR A1M8** to detect obstacles and provide environmental information for mapping and navigation.
 
-#### Communication
+- #### Communication
 ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcontrollers via **Wi-Fi** to execute motor control and mechanism operations.
 
 ## Flowchart to navigate from its position to Position A 
