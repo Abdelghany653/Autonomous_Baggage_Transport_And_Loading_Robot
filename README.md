@@ -79,6 +79,9 @@ Uses the **RPLIDAR A1M8** to detect obstacles and provide environmental informat
 ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcontrollers via **Wi-Fi** to execute motor control and mechanism operations.
 
 ## Flowchart
+Flowchart (a): ABTLR autonomously navigates from its position to the conveyor.
+Flowchart (b): ABTLR autonomously navigates from conveyor to the store.
+Flowchart (c): ABTLR autonomously navigates from the final position to the garage.
 
 <table align="center">
   <tr>
