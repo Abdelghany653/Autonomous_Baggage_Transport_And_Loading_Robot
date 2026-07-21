@@ -18,7 +18,7 @@ Next, the robot navigates from **Position A** to **Position B**. Once it reaches
 
 The mechanical design of the **Autonomous Baggage Transport and Loading Robot (ABTLR)** consists of three main subsystems.
 
-### Base
+- ### Base
 A differential-drive mobile platform that supports all robot components and enables stable autonomous navigation using two driven wheels and four caster wheels.
 
 ### Scissor Mechanism
