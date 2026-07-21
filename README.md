@@ -64,10 +64,12 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 
 ## Flowchart to navigate from its position to Position A 
 
- <p align="center">
-  <img src="docs/flowchart_A.png">
- </p>
 
+<p align="center">
+  <img src="docs/flowchart_A.png" alt="Image 1" width="20%">
+  <img src="docs/flowchart_B.png" alt="Image 2" width="20%">
+  <img src="docs/flowchart_garage.png" alt="Image 3" width="20%">
+</p>
 
 
 ## Demonstration Video
