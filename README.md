@@ -37,7 +37,7 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 
 ## Electrical System
 
-
+ 
 ---
 
 ## Software System
