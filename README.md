@@ -81,15 +81,15 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 <table align="center">
   <tr>
     <td align="center">
-      <img src="docs/flowchart_A.png" width="250"><br>
+      <img src="docs/flowchart_A.png" width="300"><br>
       <b>(a)</b>
     </td>
     <td align="center">
-      <img src="docs/flowchart_B.png" width="250"><br>
+      <img src="docs/flowchart_B.png" width="300"><br>
       <b>(b)</b>
     </td>
     <td align="center">
-      <img src="docs/flowchart_garage.png" width="250"><br>
+      <img src="docs/flowchart_garage.png" width="300"><br>
       <b>(c)</b>
     </td>
   </tr>
