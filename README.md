@@ -1,20 +1,18 @@
 # Autonomous Baggage Transport and Loading Robot (ABTLR)
 
 ## Overview
- 
 The **Autonomous Baggage Transport and Loading Robot (ABTLR)** is an intelligent robotic system designed to autonomously transport, lift, load, and unload baggage in airports and warehouses. The system improves operational efficiency, reduces manual labor, and enhances the safety and reliability of baggage handling through autonomous navigation, obstacle avoidance, and precise material handling.
 
----
+
 
 ## Operation
-
 The **ABTLR** project is designed for logistics operations and can be applied in airports and warehouses. Its purpose is to automate baggage transportation from the conveyor area (**Position A**) to the storage area (**Position B**).
 
 The robot first navigates autonomously to **Position A** while avoiding obstacles. Upon arrival, the scissor mechanism rises to a specific level, and the loading mechanism moves forward to capture the baggage. After securing the bag using the gripper, the mechanism retracts.
 
 Next, the robot navigates from **Position A** to **Position B**. Once it reaches the destination, it adjusts its height using the scissor mechanism, then moves the mechanism forward to place the baggage into the designated storage area. This process repeats continuously as long as baggage is available. After completing its tasks, the robot returns to its home position, and all mechanisms return to their initial states.
 
----
+
 
 ## Mechanical Design
 
@@ -46,29 +44,29 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 
 The software system of the **Autonomous Baggage Transport and Loading Robot (ABTLR)** is developed using **ROS 2 Jazzy** and consists of the following main modules.
 
-### Robot Control
+#### Robot Control
 Controls the robot's movement and coordinates the operation of the scissor lift, gripper, and pusher mechanisms.
 
-### Localization and Mapping
+#### Localization and Mapping
 Uses **SLAM Toolbox** to generate maps and **AMCL** for accurate localization within a known environment.
 
-### Navigation
+#### Navigation
 Employs the **A\*** algorithm for global path planning and the **Dynamic Window Approach (DWA)** for local path planning and obstacle avoidance.
 
-### Sensor Fusion
+#### Sensor Fusion
 Integrates data from wheel encoders and the **MPU6050 IMU** using an **Extended Kalman Filter (EKF)** to improve localization accuracy.
 
-### Perception
+#### Perception
 Uses the **RPLIDAR A1M8** to detect obstacles and provide environmental information for mapping and navigation.
 
-### Communication
+#### Communication
 ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcontrollers via **Wi-Fi** to execute motor control and mechanism operations.
 
 ## Flowchart to navigate from its position to Position A 
-<p align="center">
-  <img src="docs/flowchart_A.png" >
-</p>
----
+
+ <p align="center">
+  <img src="docs/flowchart_A.png" alt="Image 1" width="80%">
+ </p>
 
 
 
@@ -94,7 +92,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
     <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
   </a>
 </p>
----
+
 
 ## Technologies Used
 
@@ -114,9 +112,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 - C++
 - Python
 
----
 
-## Author
 
 **Ahmed Mohamed Abdelghany**
 
