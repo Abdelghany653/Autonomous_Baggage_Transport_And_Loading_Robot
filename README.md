@@ -80,9 +80,9 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 
 
 <p align="center">
-  <img src="docs/flowchart_A.png" alt="Image 1" width="20%">
-  <img src="docs/flowchart_B.png" alt="Image 2" width="20%">
-  <img src="docs/flowchart_garage.png" alt="Image 3" width="20%">
+  <img src="docs/flowchart_A.png" alt="Image 1" width="35%">
+  <img src="docs/flowchart_B.png" alt="Image 2" width="35%">
+  <img src="docs/flowchart_garage.png" alt="Image 3" width="35%">
 </p>
  
 
@@ -112,6 +112,8 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 ## Technologies Used
 
 - ROS 2 Jazzy
+- Gazebo
+- Rviz2
 - Navigation2
 - SLAM Toolbox
 - AMCL
@@ -124,6 +126,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 - RPLIDAR A1M8
 - MPU6050
 - SolidWorks
+- MATLAB
 - C++
 - Python
 
