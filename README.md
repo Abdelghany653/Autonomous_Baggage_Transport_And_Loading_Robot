@@ -107,21 +107,21 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 
 ## Demonstration Video
 
-##### Watch the simulation of the project by clicking the button below.
+- ##### Watch the simulation of the project by clicking the button below.
 <p align="center">
   <a href="https://veed.io/view/bcece7d0-a88b-4904-981a-6febc495781e">
     <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
   </a>
 </p>
 
-##### Watch the physical implementation of the project by clicking the button below.
+- ##### Watch the physical implementation of the project by clicking the button below.
 <p align="center">
   <a href="https://veed.io/view/c21e7d1d-9031-4c93-95dd-359bc484fccd">
     <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
   </a>
 </p>
 
-##### Watch the test of the project by clicking the button below.
+- ##### Watch the test of the project by clicking the button below.
 <p align="center">
   <a href="https://veed.io/view/6f6ea429-b2cb-41ac-96ac-03ae0e153747">
     <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
