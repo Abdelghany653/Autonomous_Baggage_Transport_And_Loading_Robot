@@ -36,9 +36,7 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 ---
 
 ## Electrical System
-<p align="center">
-  <img src="docs/electrical.png" >
-</p>
+
 
 ---
 
