@@ -12,7 +12,7 @@ The robot first navigates autonomously to **Position A** while avoiding obstacle
 
 Next, the robot navigates from **Position A** to **Position B**. Once it reaches the destination, it adjusts its height using the scissor mechanism, then moves the mechanism forward to place the baggage into the designated storage area. This process repeats continuously as long as baggage is available. After completing its tasks, the robot returns to its home position, and all mechanisms return to their initial states.
 
-
+---
 
 ## Mechanical Design
 
@@ -32,6 +32,7 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
   <img src="docs/physical.jpg" alt="Image 2" width="20%">
 </p>
 
+---
 
 ## Electrical System
 - 24V/30A DC Rechargeable Battery
@@ -53,6 +54,7 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
   <img src="docs/electrical.png" alt="Image 1" width="80%">
   </p>
 
+---
 
 ## Software System
 
@@ -96,6 +98,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 </table>
  
 
+---
 
 
 ## Demonstration Video
@@ -120,6 +123,8 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
     <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
   </a>
 </p>
+
+---
 
 ## Technologies Used
 
