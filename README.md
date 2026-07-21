@@ -78,7 +78,6 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
 
 ## Flowchart
 
-
 <p align="center">
   <img src="docs/flowchart_A.png" alt="Image 1" width="27%">
   <b>a</b>
@@ -88,7 +87,7 @@ ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcont
   <b>c</b>
 </p>
  
-
+---
 
 
 ## Demonstration Video
