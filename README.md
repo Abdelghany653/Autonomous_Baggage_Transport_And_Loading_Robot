@@ -1,4 +1,3 @@
-# Autonomous_Baggage_Transport_And_Loading_Robot
 # Autonomous Baggage Transport and Loading Robot (ABTLR)
 
 ## Overview
@@ -7,7 +6,7 @@ The **Autonomous Baggage Transport and Loading Robot (ABTLR)** is an intelligent
 
 ---
 
-## Project Description
+## Operation
 
 The **ABTLR** project is designed for logistics operations and can be applied in airports and warehouses. Its purpose is to automate baggage transportation from the conveyor area (**Position A**) to the storage area (**Position B**).
 
@@ -22,22 +21,24 @@ Next, the robot navigates from **Position A** to **Position B**. Once it reaches
 The mechanical design of the **Autonomous Baggage Transport and Loading Robot (ABTLR)** consists of three main subsystems.
 
 ### Base
-
 A differential-drive mobile platform that supports all robot components and enables stable autonomous navigation using two driven wheels and four caster wheels.
 
 ### Scissor Mechanism
-
 A vertically actuated lifting system powered by a linear actuator, used to adjust the height of the loading mechanism for baggage pickup and placement at different storage levels.
 
 ### Pusher/Capture Mechanism
-
 A horizontal lead screw-driven mechanism responsible for baggage handling. The capture unit uses servo-actuated grippers to securely grasp the baggage, while the pusher transfers and releases it accurately into the designated storage location.
 
+<p align="center">
+  <img src="docs/robot_solidworks.jpg" alt="Image 1" width="45%">
+  <img src="docs/analysis.png" alt="Image 2" width="45%">
+</p>
 ---
 
 ## Electrical System
-
-> *(Add the electrical system description here.)*
+<p align="center">
+  <img src="docs/electrical.png" >
+</p>
 
 ---
 
@@ -46,78 +47,39 @@ A horizontal lead screw-driven mechanism responsible for baggage handling. The c
 The software system of the **Autonomous Baggage Transport and Loading Robot (ABTLR)** is developed using **ROS 2 Jazzy** and consists of the following main modules.
 
 ### Robot Control
-
 Controls the robot's movement and coordinates the operation of the scissor lift, gripper, and pusher mechanisms.
 
 ### Localization and Mapping
-
 Uses **SLAM Toolbox** to generate maps and **AMCL** for accurate localization within a known environment.
 
 ### Navigation
-
 Employs the **A\*** algorithm for global path planning and the **Dynamic Window Approach (DWA)** for local path planning and obstacle avoidance.
 
 ### Sensor Fusion
-
 Integrates data from wheel encoders and the **MPU6050 IMU** using an **Extended Kalman Filter (EKF)** to improve localization accuracy.
 
 ### Perception
-
 Uses the **RPLIDAR A1M8** to detect obstacles and provide environmental information for mapping and navigation.
 
 ### Communication
-
 ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcontrollers via **Wi-Fi** to execute motor control and mechanism operations.
 
+## Flowchart to navigate from its position to Position A 
+<p align="center">
+  <img src="docs/flowchart_A.png" >
+</p>
 ---
 
-## Project Images
 
-### Robot Overview
-
-<p align="center">
-  <img src="docs/images/robot.png" width="700">
-</p>
-
-### Mechanical Design
-
-<p align="center">
-  <img src="docs/images/mechanical_design.png" width="700">
-</p>
-
-### Electrical System
-
-<p align="center">
-  <img src="docs/images/electrical_system.png" width="700">
-</p>
-
-### Software Architecture
-
-<p align="center">
-  <img src="docs/images/software_architecture.png" width="700">
-</p>
-
-### Navigation in RViz
-
-<p align="center">
-  <img src="docs/images/rviz_navigation.png" width="700">
-</p>
-
----
 
 ## Demonstration Video
 
 Watch the project demonstration by clicking the image below.
-
 <p align="center">
-  <a href="https://youtu.be/YOUR_VIDEO_LINK">
-    <img src="docs/images/video_thumbnail.png" width="700">
+  <a href="https://veed.io/view/c21e7d1d-9031-4c93-95dd-359bc484fccd">
+    <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
   </a>
 </p>
-
-Or watch it directly here:
-
-https://youtu.be/YOUR_VIDEO_LINK
 
 ---
 
