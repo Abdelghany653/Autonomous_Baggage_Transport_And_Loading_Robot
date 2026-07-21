@@ -76,13 +76,13 @@ Uses the **RPLIDAR A1M8** to detect obstacles and provide environmental informat
 - #### Communication
 ROS 2 nodes running on a **Raspberry Pi 5** communicate with **ESP32** microcontrollers via **Wi-Fi** to execute motor control and mechanism operations.
 
-## Flowchart to navigate from its position to Position A 
+## Flowchart
 
 
 <p align="center">
-  <img src="docs/flowchart_A.png" alt="Image 1" width="35%">
-  <img src="docs/flowchart_B.png" alt="Image 2" width="35%">
-  <img src="docs/flowchart_garage.png" alt="Image 3" width="35%">
+  <img src="docs/flowchart_A.png" alt="Image 1" width="25%">
+  <img src="docs/flowchart_B.png" alt="Image 2" width="25%">
+  <img src="docs/flowchart_garage.png" alt="Image 3" width="25%">
 </p>
  
 
