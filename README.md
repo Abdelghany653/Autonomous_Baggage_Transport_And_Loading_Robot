@@ -28,8 +28,8 @@ A vertically actuated lifting system powered by a linear actuator, used to adjus
 A horizontal lead screw-driven mechanism responsible for baggage handling. The capture unit uses servo-actuated grippers to securely grasp the baggage, while the pusher transfers and releases it accurately into the designated storage location.
 
 <p align="center">
-  <img src="docs/robot_solidworks.jpg" alt="Image 1" width="20%">
-  <img src="docs/physical.jpg" alt="Image 2" width="20%">
+  <img src="docs/robot_solidworks.jpg" alt="Image 1" width="25%">
+  <img src="docs/physical.jpg" alt="Image 2" width="25%">
 </p>
 
 ---
